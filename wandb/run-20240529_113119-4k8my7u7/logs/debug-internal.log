@@ -85,3 +85,51 @@
 2024-05-29 11:36:58,464 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
 2024-05-29 11:37:14,434 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
 2024-05-29 11:37:14,439 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:37:29,999 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:37:30,000 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:37:45,470 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:37:45,509 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:38:01,033 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:38:01,034 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:38:16,591 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:38:16,593 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:38:32,135 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:38:32,140 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:38:47,721 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:38:47,722 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:39:03,285 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:39:03,289 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:39:18,761 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:39:18,766 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:39:25,424 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: resume
+2024-05-29 11:39:25,424 INFO    HandlerThread:30074 [handler.py:handle_request_resume():686] starting system metrics thread
+2024-05-29 11:39:25,703 DEBUG   SenderThread:30074 [sender.py:send():232] send: config
+2024-05-29 11:39:25,704 DEBUG   SenderThread:30074 [sender.py:send():232] send: metric
+2024-05-29 11:39:25,704 DEBUG   SenderThread:30074 [sender.py:send():232] send: metric
+2024-05-29 11:39:25,704 WARNING SenderThread:30074 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2024-05-29 11:39:25,853 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: pause
+2024-05-29 11:39:25,853 INFO    HandlerThread:30074 [handler.py:handle_request_pause():695] stopping system metrics thread
+2024-05-29 11:39:26,636 DEBUG   SenderThread:30074 [sender.py:send():232] send: stats
+2024-05-29 11:39:27,982 INFO    Thread-7  :30074 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_113119-4k8my7u7/files/config.yaml
+2024-05-29 11:39:34,321 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:39:34,321 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:39:49,774 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:39:49,778 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:40:05,341 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:40:05,342 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:40:20,812 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:40:20,816 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:40:36,331 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:40:36,331 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:40:51,933 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:40:51,934 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:41:07,497 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:41:07,502 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:41:22,947 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:41:22,948 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:41:38,526 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:41:38,530 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:41:54,704 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:41:54,704 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 11:42:10,270 DEBUG   HandlerThread:30074 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 11:42:10,272 DEBUG   SenderThread:30074 [sender.py:send_request():246] send_request: stop_status
