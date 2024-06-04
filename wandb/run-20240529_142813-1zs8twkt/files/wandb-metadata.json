@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.15.0-107-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-05-29T17:28:16.265063",
+    "startedAt": "2024-05-29T17:28:13.249311",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:ClessonR/TimeSeriesAug.git",
+        "commit": "c666e87e8fb1dc05bbcdd550e3dcae466f3aac21"
+    },
+    "email": "bebettus2009@live.com",
+    "root": "/home/crsj/Documents/TimeSeriesAug",
+    "host": "nb638-crsj",
+    "username": "crsj",
+    "executable": "/home/crsj/anaconda3/bin/python"
+}

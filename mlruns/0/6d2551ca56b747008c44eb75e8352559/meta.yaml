@@ -1,0 +1,15 @@
+artifact_uri: file:///home/crsj/Documents/TimeSeriesAug/mlruns/0/6d2551ca56b747008c44eb75e8352559/artifacts
+end_time: 1717381008058
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d2551ca56b747008c44eb75e8352559
+run_name: ./results
+run_uuid: 6d2551ca56b747008c44eb75e8352559
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717380119864
+status: 3
+tags: []
+user_id: crsj

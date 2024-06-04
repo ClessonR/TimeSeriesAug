@@ -1,0 +1,49 @@
+2024-05-29 14:25:38,684 INFO    MainThread:51040 [internal.py:wandb_internal():90] W&B internal server running at pid: 51040, started at: 2024-05-29 14:25:38.684166
+2024-05-29 14:25:38,688 INFO    WriterThread:51040 [datastore.py:open_for_write():75] open: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/run-2xaxyrf8.wandb
+2024-05-29 14:25:38,688 DEBUG   SenderThread:51040 [sender.py:send():232] send: header
+2024-05-29 14:25:38,688 DEBUG   SenderThread:51040 [sender.py:send():232] send: run
+2024-05-29 14:25:39,211 DEBUG   HandlerThread:51040 [handler.py:handle_request():141] handle_request: check_version
+2024-05-29 14:25:39,217 INFO    SenderThread:51040 [dir_watcher.py:__init__():197] watching files in: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/files
+2024-05-29 14:25:39,217 INFO    SenderThread:51040 [sender.py:_start_run_threads():811] run started: 2xaxyrf8 with start time 1717003537
+2024-05-29 14:25:39,217 DEBUG   SenderThread:51040 [sender.py:send():232] send: summary
+2024-05-29 14:25:39,218 INFO    SenderThread:51040 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2024-05-29 14:25:39,218 DEBUG   SenderThread:51040 [sender.py:send_request():246] send_request: check_version
+2024-05-29 14:25:39,389 DEBUG   HandlerThread:51040 [handler.py:handle_request():141] handle_request: run_start
+2024-05-29 14:25:40,266 INFO    Thread-7  :51040 [dir_watcher.py:_on_file_created():244] file/dir created: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/files/wandb-summary.json
+2024-05-29 14:25:40,848 DEBUG   HandlerThread:51040 [meta.py:__init__():35] meta init
+2024-05-29 14:25:40,848 DEBUG   HandlerThread:51040 [meta.py:__init__():49] meta init done
+2024-05-29 14:25:40,848 DEBUG   HandlerThread:51040 [meta.py:probe():209] probe
+2024-05-29 14:25:40,855 DEBUG   HandlerThread:51040 [meta.py:_setup_git():199] setup git
+2024-05-29 14:25:40,878 DEBUG   HandlerThread:51040 [meta.py:_setup_git():206] setup git done
+2024-05-29 14:25:40,878 DEBUG   HandlerThread:51040 [meta.py:_save_pip():53] save pip
+2024-05-29 14:25:40,879 DEBUG   HandlerThread:51040 [meta.py:_save_pip():67] save pip done
+2024-05-29 14:25:40,879 DEBUG   HandlerThread:51040 [meta.py:_save_conda():74] save conda
+2024-05-29 14:25:41,266 INFO    Thread-7  :51040 [dir_watcher.py:_on_file_created():244] file/dir created: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/files/requirements.txt
+2024-05-29 14:25:41,266 INFO    Thread-7  :51040 [dir_watcher.py:_on_file_created():244] file/dir created: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/files/conda-environment.yaml
+2024-05-29 14:25:45,267 INFO    Thread-7  :51040 [dir_watcher.py:_on_file_created():244] file/dir created: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/files/output.log
+2024-05-29 14:25:49,643 DEBUG   HandlerThread:51040 [meta.py:_save_conda():84] save conda done
+2024-05-29 14:25:49,647 DEBUG   HandlerThread:51040 [meta.py:probe():247] probe done
+2024-05-29 14:25:49,731 DEBUG   HandlerThread:51040 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 14:25:49,732 DEBUG   SenderThread:51040 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 14:25:49,732 DEBUG   HandlerThread:51040 [handler.py:handle_request():141] handle_request: pause
+2024-05-29 14:25:49,735 INFO    HandlerThread:51040 [handler.py:handle_request_pause():695] stopping system metrics thread
+2024-05-29 14:25:50,210 DEBUG   SenderThread:51040 [sender.py:send():232] send: telemetry
+2024-05-29 14:25:50,210 DEBUG   SenderThread:51040 [sender.py:send():232] send: config
+2024-05-29 14:25:50,211 DEBUG   SenderThread:51040 [sender.py:send():232] send: metric
+2024-05-29 14:25:50,211 DEBUG   SenderThread:51040 [sender.py:send():232] send: telemetry
+2024-05-29 14:25:50,211 DEBUG   SenderThread:51040 [sender.py:send():232] send: metric
+2024-05-29 14:25:50,211 WARNING SenderThread:51040 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2024-05-29 14:25:50,211 DEBUG   SenderThread:51040 [sender.py:send():232] send: telemetry
+2024-05-29 14:25:50,211 DEBUG   SenderThread:51040 [sender.py:send():232] send: files
+2024-05-29 14:25:50,211 INFO    SenderThread:51040 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2024-05-29 14:25:50,211 DEBUG   SenderThread:51040 [sender.py:send():232] send: stats
+2024-05-29 14:25:50,269 INFO    Thread-7  :51040 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/files/conda-environment.yaml
+2024-05-29 14:25:50,269 INFO    Thread-7  :51040 [dir_watcher.py:_on_file_created():244] file/dir created: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/files/wandb-metadata.json
+2024-05-29 14:25:51,336 INFO    Thread-11 :51040 [upload_job.py:push():132] Uploaded file /tmp/tmpj2cbk0s0wandb/y46mpbm7-wandb-metadata.json
+2024-05-29 14:26:04,398 DEBUG   HandlerThread:51040 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 14:26:04,403 DEBUG   SenderThread:51040 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 14:26:10,277 INFO    Thread-7  :51040 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home/crsj/Documents/TimeSeriesAug/wandb/run-20240529_142537-2xaxyrf8/files/config.yaml
+2024-05-29 14:26:19,920 DEBUG   HandlerThread:51040 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 14:26:19,921 DEBUG   SenderThread:51040 [sender.py:send_request():246] send_request: stop_status
+2024-05-29 14:26:35,625 DEBUG   HandlerThread:51040 [handler.py:handle_request():141] handle_request: stop_status
+2024-05-29 14:26:35,629 DEBUG   SenderThread:51040 [sender.py:send_request():246] send_request: stop_status

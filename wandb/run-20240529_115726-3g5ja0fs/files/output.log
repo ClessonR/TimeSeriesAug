@@ -1,0 +1,9 @@
+
+5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d6.13.05dc3a68c-e34e-4080-9c3e-2a532b2ccb4d
+Traceback (most recent call last):
+  File "_pydevd_bundle/pydevd_cython.pyx", line 1081, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython.pyx", line 297, in _pydevd_bundle.pydevd_cython.PyDBFrame.do_wait_suspend
+  File "/home/crsj/anaconda3/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 2023, in do_wait_suspend
+    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread, frames_tracker)
+  File "/home/crsj/anaconda3/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd.py", line 2059, in _do_wait_suspend
+    time.sleep(0.01)
